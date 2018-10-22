@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(20,20,20);
+    display: flex;
+    flex-flow: row;
+    color: lightgrey;
+}
+#tooflogo {
+    position: fixed;
+    height: 100%;
+    word-wrap: break-word;
+    font-size: 4em;
+    font-family: 'persia';
+    text-anchor: middle;
+    text-align: center;
+    color: rgb(5,5,5);
+    text-shadow: 0px 0px 5px rgb(156, 115, 0);
+    border-right: 1px solid rgba(156, 114, 0, 0.76);
+    width: 20%;
+}
+#titleholder {
+    font-size: 2em;
+}
+#posttext {
+    float: right;
+    margin-left: 25%;
+    margin-right: 30px;
+    width: 80%;
+    text-align: justify;
+    break-inside: auto;
+}
+hr {
+    color: linear-gradient(transparent, purple, transparent);
+}
+a {
+    color: rgb(156, 115, 0);
+}
+@font-face {
+    font-family: persia;
+    src: url(/fonts/Tsunami.ttf);
+}
